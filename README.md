@@ -28,9 +28,6 @@ release my-feature-branch
 
 This script assumes that your Github repository is using semver versioning and that your latest release version is in the format `vX.Y.Z`. If your repository is using a different versioning scheme, or if the latest release version is not in the expected format, this script may not work as intended.
 
-## License
-
-This script is released under the MIT License. See LICENSE file for details.
 
 ------
 
