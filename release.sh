@@ -4,7 +4,7 @@
 branch=${1:-main}
 
 # Get the latest semver version from Github
-latest_version=$(gh release list | head -n1 | awk '{print $1}')
+latest_version=$(gh release view --json tagName | jq -r '.tagName' )
 
 # Increment the minor version using awk
 new_version=$(echo $latest_version | awk 'BEGIN{FS="."} {print $1"."$2+1".0"}')
