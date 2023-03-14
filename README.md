@@ -12,9 +12,8 @@ Before running this script, you must have the following installed on your system
 ## Usage
 
 1. Open a terminal window and navigate to the directory containing the script.
-2. Make the script executable by running the command `chmod +x release.sh`.
-3. Add the script to your system's path by running the command `ln -s /path/to/release.sh /usr/local/bin/release`.
-4. In the terminal, run the script by typing `release` followed by the branch name (if different from "main").
+2. Add the script to your system's path by running the command `ln -s /path/to/release.sh /usr/local/bin/release`.
+3. In the terminal, run the script by typing `release` followed by the branch name (if different from "main").
 
 For example, to create a new release on the "my-feature-branch" branch, run the command:
 
