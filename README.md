@@ -4,6 +4,7 @@ This bash script automates the process of creating a new Github release with an 
 
 ## Prerequisites
 This script assumes that your Github repository is using semver versioning and that your latest release version is in the format `vX.Y.Z`. If your repository is using a different versioning scheme, or if the latest release version is not in the expected format, this script may not work as intended.
+
 Before running this script, you must have the following installed on your system:
 
 - `gh` command line tool
