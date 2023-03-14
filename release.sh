@@ -10,5 +10,5 @@ latest_version=$(gh release list | head -n1 | awk '{print $1}')
 new_version=$(echo $latest_version | awk 'BEGIN{FS="."} {print $1"."$2+1".0"}')
 
 # Create a new release with the new semver tag
-gh release create $new_version -t $new_version --target $branch --generate-notes --yes
+gh release create $new_version -t $new_version --target $branch --generate-notes --latest
 
